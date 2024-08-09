@@ -1,10 +1,14 @@
 TO-DO: Make an AI powered software that provides customer the potential present or future equipment failures
 
 
-TASK-1: Identify and understand the problem statement and return to conclusion about the dataset inference.
-main dataset- shows us the values for each equipment
-threshold dataset- shows us the required threshold for the working of the equipments.
+//TASK-1: Identify and understand the problem statement and return to conclusion about the dataset inference.
+//main dataset- shows us the values for each equipment
+//threshold dataset- shows us the required threshold for the working of the equipments.
 
 
-TASK-2: Improving the threshold dataset to make use of it, as it does not have any significance because we can not compare the value attribute with the treshold attribute.
-For this task we are going to
+//TASK-2: Improving the threshold dataset to make use of it, as it does not have any significance because we can not compare the value //attribute with the treshold attribute.
+//For this task we are going to
+
+First of all we have created a model which can predict whether the components will fail or not provided certain values for each of the features.
+For creating the model we face few problems(e.g. aligning and merging the data with the provided threshold values)
+Once we have created the model the next step will be to integrate the model with frontend(app/website) so that whenever a user/machine inputs a value, the app should display the prediction.

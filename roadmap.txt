@@ -1,0 +1,10 @@
+TO-DO: Make an AI powered software that provides customer the potential present or future equipment failures
+
+
+TASK-1: Identify and understand the problem statement and return to conclusion about the dataset inference.
+main dataset- shows us the values for each equipment
+threshold dataset- shows us the required threshold for the working of the equipments.
+
+
+TASK-2: Improving the threshold dataset to make use of it, as it does not have any significance because we can not compare the value attribute with the treshold attribute.
+For this task we are going to
